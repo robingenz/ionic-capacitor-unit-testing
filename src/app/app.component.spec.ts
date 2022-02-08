@@ -3,8 +3,8 @@ import {
   fakeAsync,
   TestBed,
 } from '@angular/core/testing';
-import { App } from '../__mocks__/@capacitor/app';
-import { Capacitor } from '../__mocks__/@capacitor/capacitor';
+import { App } from '@capacitor/app';
+import { Capacitor } from '@capacitor/core';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
